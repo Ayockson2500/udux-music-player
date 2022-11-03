@@ -10,13 +10,13 @@ export const likeSongsElements = [
     },
     {
         image: mainAdekunle,
-        title: "Daily Vibes 1 ",
-        text: "Burna Boy, Oxlade, Davido, Tems Wizkid, Tiwa Savage..... "
+        title: "Daily Vibes 2 ",
+        text: "Lojay, Oxlade, Amaa Rae, Rema, Omah Lay, SGawd.... "
     },
     {
         image: oxlade,
-        title: "Daily Vibes 1 ",
-        text: "Burna Boy, Oxlade, Davido, Tems Wizkid, Tiwa Savage..... "
+        title: "Daily Vibes 3 ",
+        text: "Koffee, Chris Brown, WSTRN, Drake, Future, Burna Boy"
     },
     {
         image: mainBurna,
@@ -25,13 +25,13 @@ export const likeSongsElements = [
     },
     {
         image: mainAdekunle,
-        title: "Daily Vibes 1 ",
-        text: "Burna Boy, Oxlade, Davido, Tems Wizkid, Tiwa Savage..... "
+        title: "Daily Vibes 2 ",
+        text: "Lojay, Oxlade, Amaa Rae, Rema, Omah Lay, SGawd.... "
     },
     {
         image: oxlade,
-        title: "Daily Vibes 1 ",
-        text: "Burna Boy, Oxlade, Davido, Tems Wizkid, Tiwa Savage..... "
+        title: "Daily Vibes 3 ",
+        text: "Koffee, Chris Brown, WSTRN, Drake, Future, Burna Boy"
     }
 ]
 
