@@ -34,6 +34,7 @@ const StyledNavBar = styled.div`
         outline: none;
         background: transparent;
         color: white;
+        padding: 0 10px;
     }
     .mobileNavBar {
        display: none;
