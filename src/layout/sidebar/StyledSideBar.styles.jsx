@@ -5,6 +5,25 @@ const StyledSideBar = styled.div`
   font-family: "Bw Modelica";
   src: url(../../assets/fonts/modelicaFont/woff/BwModelica-Bold.woff);
 }
+
+.fw-400 {
+    font-weight: 400;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-500 {
+    font-weight: 700;
+}
+.fs-10 {
+    font-size: 10px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-28 {
+    font-size: 28px;
+}
 .sideBar {
     background: ${props => props.theme.background.primaryDarkBg};
     width: 20%;
@@ -30,7 +49,6 @@ const StyledSideBar = styled.div`
         font-size: ${props => props.theme.fontsize.fontSize16};
         color: ${props => props.theme.color.mainLightColor};
         font-size: 12px;
-        font-family: "Bw Modelica";
     }
     a:hover {
         color: ${props => props.theme.color.mainBrownColor};
@@ -38,8 +56,17 @@ const StyledSideBar = styled.div`
     .active-menu a {
         color: ${props => props.theme.color.mainBrownColor};
     }
+    .section-one a {
+        font-weight: ${props => props.theme.fontWeight.fontWeight600};
+        font-size: ${props =>props.theme.fontsize.fontSize16};
+    }
+    .section-two a {
+        font-weight: ${props => props.theme.fontWeight.fontWeight600};
+        font-size: ${props =>props.theme.fontsize.fontSize16};
+    }
     .section-three a {
         font-weight: ${props => props.theme.fontWeight.fontWeight500};
+        font-size: ${props =>props.theme.fontsize.fontSize16};
     }
     .display-flex {
         display: flex;
@@ -55,7 +82,6 @@ const StyledSideBar = styled.div`
     }
     .section-two {
         margin-bottom: 12px;
-
     }
      .section img {
         width: 10px;
