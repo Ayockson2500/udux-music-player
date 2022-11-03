@@ -21,10 +21,10 @@ const LikeSongs = () => {
             </div>
           </header>
           <section>
-            <div className="title-text">Welcome Back!</div>
+            <div className="title-text fw-700 fs-28">Welcome Back!</div>
             <div className="main-artist-container ">
               {likeSongsElements.map((items, idx) => (
-                <div className="individual-artist-black-container ">
+                <div key={idx} className="individual-artist-black-container ">
                   <div className="individual-artist-yellow">
                     <div className="image-black-container">
                       <div className="artist-image-container">
@@ -32,18 +32,18 @@ const LikeSongs = () => {
                       </div>
                     </div>
                     <div className="yellow-artist-text-area">
-                      <div className="dialy-vibe">{items.title}</div>
-                      <div className="daily-vibe-text-para"> {items.text}</div>
+                      <div className="dialy-vibe fw-700 fs-16">{items.title}</div>
+                      <div className="daily-vibe-text-para fs-28"> {items.text}</div>
                     </div>
                   </div>
                 </div>
               ))}
             </div>
             <>
-              <div className="title-text">Cheers to the Weekend</div>
+              <div className="title-text fw-700 fs-28">Cheers to the Weekend</div>
               <div className="main-artist-container ">
                 {likeSongsElementsTwo.map((items, idx) => (
-                  <div className="individual-artist-black-container-2">
+                  <div key={idx} className="individual-artist-black-container-2">
                     <div className="individual-artist-yellow-2">
                       <div className="image-black-container-2">
                         <div className="artist-image-container">

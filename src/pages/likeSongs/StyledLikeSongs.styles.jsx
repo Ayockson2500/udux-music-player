@@ -21,6 +21,24 @@ const StyledLikeSongs = styled.div`
         color: white;
         margin: 20px 0;
     }
+    .fw-400 {
+    font-weight: 400;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fs-10 {
+    font-size: 10px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-28 {
+    font-size: 28px;
+}
     .activeArtist-name {
         position: absolute;
         top: 70px;
