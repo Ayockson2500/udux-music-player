@@ -17,13 +17,14 @@ const theme = {
     },
     fontsize: {
         fontSize16: "16px",
-        fonstSize28: "28px"
+        fonstSize28: "28px",
+        fonstSize10: "10px"
     },
     fontFamily: {
         fontFamily : "san sarif"
     },
     fontWeight: {
-        fontWeight500: 300,
+        fontWeight500: 500,
         fontWeight600: 600,
         fontWeight700: 700
     }
