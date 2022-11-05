@@ -258,7 +258,7 @@ const StyledLikeSongs = styled.div`
     height: 89px;
 }
 .title-text {
-    font-size: 20px;
+    font-size: 18px;
 }
 }
 }
