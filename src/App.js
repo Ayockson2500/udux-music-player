@@ -1,13 +1,14 @@
-import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import LikeSongs from './pages/likeSongs/LikeSongs'
+import "./App.css"
+
 
 const App = () => {
   return (
     <div>
         <Router>
             <Routes>
-                <Route path='/likesongs' exact element={<LikeSongs />} />
+                <Route path='/' element={<LikeSongs />} />
             </Routes>
         </Router>
     </div>
