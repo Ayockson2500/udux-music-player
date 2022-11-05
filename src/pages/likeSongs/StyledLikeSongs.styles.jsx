@@ -39,6 +39,9 @@ const StyledLikeSongs = styled.div`
 .fs-28 {
     font-size: 28px;
 }
+.fontFamily {
+    font-family: BwModelica;
+}
     .activeArtist-name {
         position: absolute;
         top: 70px;
@@ -46,7 +49,7 @@ const StyledLikeSongs = styled.div`
     }
     .main-artist-container {
         display: grid;
-        grid-template-columns: repeat(6, 8rem);
+        grid-template-columns: repeat(6, 1fr);
         width: 100%;
         gap:.8rem;
 
@@ -65,7 +68,7 @@ const StyledLikeSongs = styled.div`
 
 .individual-artist-yellow {
     background: linear-gradient(89.79deg, #AD4C1D -19.39%, #F6B726 123.38%);
-    height: 160px;
+    height: 200px;
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -73,7 +76,7 @@ const StyledLikeSongs = styled.div`
 }
 .individual-artist-yellow-2 {
     background: linear-gradient(89.79deg, #AD4C1D -19.39%, #F6B726 123.38%);
-    height: 80px;
+    height: 133px;
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -84,7 +87,7 @@ const StyledLikeSongs = styled.div`
     width:100%;
     padding:10px;
     position: absolute;
-    top: 80px;
+    top: 130px;;
     z-index:44
 }
 .yellow-artist-text-area-2 {
@@ -95,15 +98,15 @@ const StyledLikeSongs = styled.div`
     z-index:44
 }
 .dialy-vibe {   
-    font-family: 'Bw Modelica';
+    font-family: BwModelica;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     color: #FFFFFF
 }
 .daily-vibe-text-para {
-    font-family: 'Bw Modelica';
     font-style: normal;
+    font-family: BwModelica;
     font-weight: 500;
     font-size: 10px;
     line-height: 12px;
@@ -114,7 +117,7 @@ const StyledLikeSongs = styled.div`
 .image-black-container {
     position: absolute;
     top: -1rem;
-    height:100px;
+    height:150px;
     background-color: black;
     padding-left:10px;
     padding-right:10px;
@@ -130,7 +133,7 @@ const StyledLikeSongs = styled.div`
 .image-black-container-2 {
     position: absolute;
     top: -.9rem;
-    height:100px;
+    height:150px;
     background-color: black;
     padding-left:10px;
     padding-right:10px;
@@ -164,7 +167,7 @@ const StyledLikeSongs = styled.div`
         left: 15px;
     }
 .activeArtist-name {
-        top: 30px;
+        top: 40px;
         right: 25px;
     }
 .individual-artist-yellow {
@@ -174,16 +177,18 @@ const StyledLikeSongs = styled.div`
     height: 124px;
 }
 .image-black-container {
-    height:130px;
+    height:140px;
     z-index:100;
 }
 .image-black-container-2 {
     height:140px;
 }
 .yellow-artist-text-area {
-    position: absolute;
     top: 115px;
     z-index:44
+}
+.artistName {
+    width: 160px;
 }
 }
 
@@ -199,7 +204,7 @@ const StyledLikeSongs = styled.div`
         width: 50px;
     }
 .activeArtist-name {
-    top: 12px;
+    top: 25px;
     right: 10px;
 }
 .activeArtist-name img {
@@ -207,22 +212,54 @@ const StyledLikeSongs = styled.div`
 }
 .yellow-artist-text-area {
     padding: 0 10px;
-    top: 95px;
+    top: 135px;
 }
 .image-black-container {
-    height:105px;
+    height:145px;
 }
 .individual-artist-yellow {
-    height: 165px;
+    height: 200px;
 }
 }
 
+@media screen and (max-width: 380px) {
+.image-black-container {
+    height:125px;
+}
+.individual-artist-yellow {
+    height: 185px;
+}
+.yellow-artist-text-area {
+    top: 115px;
+    z-index:44
+}
+.image-black-container-2 {
+    height:125px;
+}
+.individual-artist-yellow-2 {
+    height: 109px;
+}
+
 @media screen and (max-width: 330px) {
-    .image-black-container-2 {
+    .image-black-container {
+    height:105px;
+}
+.individual-artist-yellow {
+    height: 170px;
+}
+.yellow-artist-text-area {
+    top: 95px;
+    z-index:44
+}
+.image-black-container-2 {
     height:105px;
 }
 .individual-artist-yellow-2 {
     height: 89px;
+}
+.title-text {
+    font-size: 20px;
+}
 }
 }
 `
