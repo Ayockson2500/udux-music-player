@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
 const StyledSideBar = styled.div`
-@font-face {
-  font-family: "Bw Modelica";
-  src: url(../../assets/fonts/modelicaFont/woff/BwModelica-Bold.woff);
-}
 
 .fw-400 {
     font-weight: 400;
@@ -49,6 +45,7 @@ const StyledSideBar = styled.div`
         font-size: ${props => props.theme.fontsize.fontSize16};
         color: ${props => props.theme.color.mainLightColor};
         font-size: 12px;
+        font-family: BwModelica;
     }
     a:hover {
         color: ${props => props.theme.color.mainBrownColor};
@@ -78,10 +75,10 @@ const StyledSideBar = styled.div`
         justify-content: space-between;
     }
     .section-one {
-        margin-bottom: 12px;
+        margin-bottom: 20px;
     }
     .section-two {
-        margin-bottom: 12px;
+        margin-bottom: 25px;
     }
      .section img {
         width: 10px;
@@ -91,7 +88,7 @@ const StyledSideBar = styled.div`
          margin-left: 10px; 
     }
     .py {
-        padding: 4px 0;
+        padding: 8px 0;
     }
     .active-menu {
         color: ${props => props.theme.color.mainBrownColor};
@@ -100,7 +97,7 @@ const StyledSideBar = styled.div`
         color: ${props => props.theme.color.mainBrownColor};
     }
     .playlist-wrapper {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     
     .mobileSideBar {
@@ -115,6 +112,18 @@ const StyledSideBar = styled.div`
         width:100%;
     }
 
+    @media screen and (max-width: 780px) {    
+            .section a {
+            font-size: ${props =>props.theme.fontsize.fonstSize10};
+            }
+        .py {
+             padding: 4px 0;
+         }
+         .section {
+              margin-bottom: 5px;
+        }
+        }
+
     @media screen and (max-width: 450px) {
         .sideBar {
             display: none;
@@ -122,6 +131,7 @@ const StyledSideBar = styled.div`
         .mobileSideBar {
             display: flex;
         }
+
 }
 `
 
