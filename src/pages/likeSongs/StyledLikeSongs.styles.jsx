@@ -44,8 +44,11 @@ const StyledLikeSongs = styled.div`
 }
     .activeArtist-name {
         position: absolute;
-        top: 70px;
+        top: 100px;
         right: 30px;
+    }
+    .artistName {
+        width: 250px;
     }
     .main-artist-container {
         display: grid;

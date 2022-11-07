@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const StyledNavBar = styled.div`
    background: ${props => props.theme.background.primaryDarkBg};
+
    .navBar {
        padding: 18px;
        display: flex;

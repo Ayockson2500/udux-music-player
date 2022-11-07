@@ -6,3 +6,7 @@
 * {
     font-weight: BwModelica;
 }
+#navBar {
+    position: sticky;
+    top: 0;
+}
