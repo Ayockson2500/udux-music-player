@@ -13,7 +13,7 @@ const NavBar = () => {
   })
   const listenToScroll = (e) => {
     window.addEventListener('scroll', e => {
-    //  console.log(mobileNavBar);
+   setMobileNavBar(mobileNavBar)
     })
   }
   return (
